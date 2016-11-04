@@ -32,6 +32,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Big-Nerd-Ranch-music" translatesAutoresizingMaskIntoConstraints="NO" id="Oji-OX-sjl">
                                 <rect key="frame" x="67" y="433" width="240" height="128"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="8Dp-zg-Jhc"/>
                                     <constraint firstAttribute="width" secondItem="Oji-OX-sjl" secondAttribute="height" multiplier="320:505" id="AtB-Dv-skN"/>
                                 </constraints>
                             </imageView>
@@ -41,7 +42,7 @@
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="94K-oQ-EA1" secondAttribute="trailing" constant="8" id="5n9-be-0sL"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dso-v3-Sza"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Oji-OX-sjl" secondAttribute="trailing" id="I8c-1X-M07"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Oji-OX-sjl" secondAttribute="bottom" constant="20" id="Jag-hh-azd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Oji-OX-sjl" secondAttribute="bottom" constant="100" id="Jag-hh-azd"/>
                             <constraint firstItem="Oji-OX-sjl" firstAttribute="top" secondItem="94K-oQ-EA1" secondAttribute="bottom" constant="83" id="JqR-Ap-R6s"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="OMl-8a-viT"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="PwQ-mQ-uVd"/>
