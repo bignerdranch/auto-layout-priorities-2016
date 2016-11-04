@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bnr-logo-square" translatesAutoresizingMaskIntoConstraints="NO" id="94K-oQ-EA1">
-                                <rect key="frame" x="27" y="50" width="320" height="300"/>
+                                <rect key="frame" x="37" y="50" width="300" height="281"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="94K-oQ-EA1" secondAttribute="height" multiplier="356:334" id="IUM-3f-gJJ"/>
                                 </constraints>
@@ -40,6 +40,7 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="94K-oQ-EA1" secondAttribute="trailing" constant="8" id="5n9-be-0sL"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dso-v3-Sza"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Oji-OX-sjl" secondAttribute="bottom" constant="106" id="Jag-hh-azd"/>
                             <constraint firstItem="Oji-OX-sjl" firstAttribute="top" secondItem="94K-oQ-EA1" secondAttribute="bottom" constant="83" id="JqR-Ap-R6s"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="OMl-8a-viT"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="PwQ-mQ-uVd"/>
