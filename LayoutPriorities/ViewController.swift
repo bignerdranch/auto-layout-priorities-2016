@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         topTitlePreferredSpacing.constant = 80
     }
 
-    @IBAction func doThingsToConstraints(sender: UIButton) {
+    @IBAction func doThingsToConstraints(_ sender: UIButton) {
         let newConstant: CGFloat
         let newText: String
         switch topTitlePreferredSpacing.constant {
@@ -35,9 +35,9 @@ class ViewController: UIViewController {
 
         self.JonathanNameLabel.text = newText
         self.topTitlePreferredSpacing.constant = newConstant
-        UIView.animateWithDuration(2    ) {
+        UIView.animate(withDuration: 2, animations: {
             self.view.layoutIfNeeded()
-        }
+        }    ) 
 
     }
 
