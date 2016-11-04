@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bnr-logo-square" translatesAutoresizingMaskIntoConstraints="NO" id="94K-oQ-EA1">
-                                <rect key="frame" x="27" y="50" width="320" height="300"/>
+                                <rect key="frame" x="-131.5" y="50" width="637" height="597"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="94K-oQ-EA1" secondAttribute="height" multiplier="356:334" id="IUM-3f-gJJ"/>
                                 </constraints>
@@ -33,6 +33,7 @@
                         <constraints>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dso-v3-Sza"/>
                             <constraint firstItem="94K-oQ-EA1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="OMl-8a-viT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="94K-oQ-EA1" secondAttribute="bottom" constant="20" id="UQj-nQ-p1t"/>
                         </constraints>
                     </view>
                 </viewController>
